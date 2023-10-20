@@ -1,0 +1,793 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.deed {
+    background-color: white;
+    flex: 0.8;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.deed1 {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 0.7%;
+}
+
+#facebooklogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#facebooklogo:hover {
+    cursor: pointer;
+}
+
+.searchfacebook {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* margin-left: 3%; */
+    /* padding-left: 1%; */
+    background-color: #f0f2f5;
+    border-radius: 20px;    
+}
+
+#searchicon {
+    margin-left: 5px;
+}
+
+input {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    background-color: #f0f2f5;
+}
+
+.deed2 {
+    background-color: white;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 14.5%;
+    padding-right: 20%; */
+    margin-left: 1%;
+}
+
+.deed2deed{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.deed2icons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+
+.deed2icons:hover {
+    background-color: #f0f2f5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#deed2icons {
+    width: 25px;
+    height: 25px;
+}
+
+.deed3 {
+    background-color: white;
+    flex: 1;
+    padding-right: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.deed3icons {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e4e6eb;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.deed3icons:hover {
+    background-color: #d2d5db;
+    cursor: pointer;
+}
+
+.deed3iconsmenu {
+    width: 20px;
+    height: 20px;
+}
+
+#deed3icons {
+    width: 25px;
+    height: 25px;
+}
+
+.profilepicture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.dood {
+    background-color: #f0f2f5;
+    flex: 11;
+    display: flex;
+}
+
+.doodzuun {
+    background-color: #f0f2f5;
+    flex: 1;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8%;
+}
+
+.doodzuundeed {
+    background-color: #f0f2f5;
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-left: 10px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.leftlisttop {
+    display: flex;
+    align-items: center;
+}
+
+.leftlisttop:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 15px;
+}
+
+.doodzuundeedicon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.doodzuundeediconarrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #e4e6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downarrow {
+    width: 20px;
+    height: 20px;
+}
+
+.doodzuundund {
+    background-color: #f0f2f5;
+    flex: 0.8;
+    /* margin-left: 10px; */
+    padding-top: 5%;
+    border-top: 0.2px solid rgb(202, 200, 200);
+}
+
+.doodzuundood {
+    background-color: #f0f2f5;
+    flex: 0.2;
+    /* margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.down {
+    font-size: 80%;
+}
+
+.dooddund {
+    background-color: #f0f2f5;
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: none;
+    overflow-y: scroll;
+    scroll-margin: 0; */
+}
+
+.story {
+    width: 50%;
+    height: 40%;
+    background-color: #f0f2f5;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* overflow: hidden; */
+}
+
+#story {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.story1, .story2, .story3, .story4, .story5 {
+    height: 100%;
+    width: 23%;
+    /* border: solid 0.2px; */
+    border-radius: 5px;
+}
+
+.story1, .story2, .story3, .story4, .story5:hover {
+    cursor: pointer;
+}
+
+.postoruulah {
+    width: 50%;
+    height: 15%;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    /* padding: 8px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.postoruulahdeed {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.postoruulahdeed:hover {
+    cursor: pointer;
+}
+
+.livephotofeeling:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 8px;
+    
+}
+
+.postbichih {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.post {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post1 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    /* padding: 8px; */
+}
+
+.postdeed {
+    height: 7%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 8px; */
+    /* border-radius: 20px; */
+}
+
+.postdeed1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+}
+
+.leftlisttopp {
+    display: flex;
+    align-items: center;
+}
+
+.leftlisttopp:hover {
+    cursor: pointer;
+}
+
+.postdeed2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+}
+
+.postdeed2huree {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postdeed2huree:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 50%;
+}
+
+.postdeed2icon1 {
+    width: 30px;
+    height: 30px;
+    /* margin-right: 10px; */
+}
+
+.postdeed2icon1:hover {
+    cursor: pointer;
+}
+
+.postdeed2icon {
+    width: 20px;
+    height: 20px;
+    /* margin-right: 10px; */
+}
+
+.postdeed2icon:hover {
+    cursor: pointer;
+}
+
+
+.posttext {
+    /* display: flex; */
+    padding-left: 8px;
+    height: 30%;
+    /* background-color: white; */
+}
+
+.postzurag {
+    height: 56%;
+    background-color: white;
+    padding: 8px;
+}
+
+#postzurag {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.postdood {
+    height: 7%;
+    background-color: white;
+    /* padding: 8px; */
+    display: flex;
+    justify-content: space-around;
+    /* border-top: 0.2px solid rgb(20, 20, 20); */
+    /* margin-top: 10px; */
+    border-bottom: 20px;
+    margin-top: 0;
+}
+
+.likecomshare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.likecomshare:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 20px;
+}
+
+#likecomment {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.postoruulahdood {
+    margin: 10px;
+    margin-bottom: 0;
+    border-top: 0.2px solid rgb(202, 200, 200);
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    font-size: 17px;
+    display: flex;
+    /* padding: 8px; */
+    background-color: white;
+}
+
+.livephotofeeling {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    margin-top: 1.5%;
+}
+
+.liphfe {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+} 
+
+.doodbaruun {
+    background-color: #f0f2f5;
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    overflow-y: scroll;
+}
+
+.doodbaruundeed {
+    background-color: #f0f2f5;
+    flex: 1;
+}
+
+h4 {
+    /* padding-top: 8px; */
+    font-size: 17px;
+    color: gray;
+    font: bold;
+    font-weight: bold;
+}
+
+.doodbaruundund1 {
+    background-color: #f0f2f5;
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.2px solid rgb(202, 200, 200);
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+    color: gray;
+    font: bold;
+    font-weight: bold;
+}
+
+.baruundund1deed {
+    display: flex;
+    align-items: flex-start;
+    flex: 0.5;
+    background-color: #f0f2f5;
+}
+
+.baruundund1dood {
+    /* width: 100%;
+    height: 100%; */
+    flex: 3;
+    background-color: #f0f2f5;
+    display: flex;
+    font-size: 16px;
+    color: black;
+    font-weight: 100;
+}
+
+.baruundund1dood:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 8px;
+}
+
+.friendrequisticon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#friendreq {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.textacceptdelete {
+    flex: 4;
+}
+
+.requestner {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 4px;
+    margin-bottom: -15px;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+}
+
+.button1 {
+    flex: 1;
+    background-color: #0866ff;
+    width: 133px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.button2 {
+    flex: 1;
+    background-color: #e4e6eb;
+    width: 133px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 4px;
+    font-weight: bold;
+}
+
+.doodbaruundund2 {
+    flex: 3;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    border-top: 0.2px solid rgb(202, 200, 200);
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+    color: gray;
+    font: bold;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.naiz {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 8px;
+    color: rgb(63, 60, 60);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.naiz:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 8px;
+}
+
+#naiz {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.naizner {
+    margin-left: 10px;
+}
+
+.doodbaruundood {
+    background-color: #f0f2f5;
+    flex: 1.2;
+}
+
+.rightlisttop2 {
+    margin-left: 5%;
+    display: flex;
+}
+
+.leftlisttop:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+}
+
+#listtop {
+    font-size: 12px;
+    color: rgb(155, 153, 153);
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.rightlisttop2:hover {
+    cursor: pointer;
+    background-color: #d2d5db;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width: 769px)
+{
+    .doodbaruun {
+        background-color: #f0f2f5;
+        flex: 1;
+        height: 100vh;
+        width: 100%;
+        /* padding-top: 8px; */
+        display: flex;
+        flex-direction: column;
+        overflow: none;
+        overflow-y: scroll;
+        margin-right: -100px;
+    }
+
+    .doodzuun
+    {
+        flex: 0.8;
+    }
+    .dooddund
+    {
+        flex: 2;
+    }
+    .doodbaruun
+    {
+        flex: 0.8;
+    }
+
+    .story, .postoruulah, .post
+    {
+        width: 90%;
+    }
+
+    body
+    {
+        background-color: #f0f2f5;
+    }
+
+    .deed2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .deed2icons{
+        display: flex;
+        justify-content: flex-start;
+        /* width: 70px; */
+        /* margin-left: -20px; */
+    }
+
+    .deed2{
+        display: flex;
+        width: 100%;
+    }
+    .deed2deed{
+        width: 100%;
+    }
+
+    .deed {
+        width: 112%;
+    }
+}
+
+@media screen and (max-width: 426px)
+{
+    .deed{
+        width: 100%;
+        background-color: white;
+    }
+
+    .deed2{
+        width: 100%;
+        display: flex;
+        object-fit: fill;
+    }
+    .deed1, .deed3
+    {
+        display: none;
+    }
+
+    .doodzuun, .doodbaruun
+    {
+        display: none;
+    }
+
+    .postoruulah{
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+    }
+
+    .dooddund{
+        justify-content: space-between;
+    }
+
+    .livephotofeeling {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        /* margin-top: 1.5%; */
+    }
+
+    .postoruulahdood {
+        display: none;
+    }
+
+    .postdeed1{
+        border-radius: 20px;
+    }
+
+    .deed2icons{
+        display: flex;
+        justify-content: center;
+        /* width: 70px; */
+        /* margin-left: -20px; */
+    }
+
+    .deed2{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .deed2deed{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
